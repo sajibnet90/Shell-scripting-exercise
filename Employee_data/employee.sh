@@ -1,6 +1,7 @@
 
 ID=0
 while true
+
 do
     echo "What is employee name:"
     read name
