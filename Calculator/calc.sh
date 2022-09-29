@@ -6,6 +6,7 @@ read y
 echo "Operator type 1 for + ,2 for - ,3 for * ,4 for / " 
 read ch
 
+
 case $ch in
   1)res=`echo $x + $y | bc`
   echo "$x addition by $y equals $res"
